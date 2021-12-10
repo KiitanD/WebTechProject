@@ -1,7 +1,7 @@
 
 <?php
     // Made with CRUDDIY
-$db_server = 'localhost'; 
+$db_server = '34.88.151.139'; 
 $db_name = 'webtech_conference_94882023'; 
 $db_user = 'root'; 
 $db_password = ''; 
