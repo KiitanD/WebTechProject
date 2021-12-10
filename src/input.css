@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+	@apply text-myblack;
+}
+#header a {
+	@apply text-white hover:text-pink-400;
+}
+.cta a {
+	@apply inline-block h-full w-1/4 text-3xl text-white text-center pt-16 
+    hover:scale-105 ease-in-out duration-300;
+}
+
+.cta a:hover {
+	box-shadow: #000500 10px 10px;
+}
+label {
+	@apply inline-block text-right flex-1 pr-4;
+}
+.error {
+	@apply m-auto inset-0;
+}
+
+.modal {
+	@apply fixed px-20 z-20 p-5 border-2 text-sm m-auto inset-0 bg-white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	@apply focus:ring-2 focus:border-0 focus:ring-teal-400 focus:border-teal-400;
+}
+button {
+	@apply hover:scale-105 ease-in-out duration-300;
+}
+button:hover:enabled {
+	box-shadow: #000500 5px 5px;
+}
+
+h1 {
+	@apply text-6xl text-center pt-20;
+}
+hr {
+	border-width: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
